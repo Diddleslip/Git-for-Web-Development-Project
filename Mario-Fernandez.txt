@@ -30,29 +30,48 @@ Semantic HTML is used to mark up HTML with tags, and helps things such as AI's, 
     Slow connections, or if the image cannot be displayed.
     15. How do I reference an id?
     id="idName" 
-    16. What is the difference between a section and a div
+    16. What is the difference between a section and a div?
     Section is for things such as chapters, footers, headers. Div is used to group block elements to format them with CSS.
     17. What is CSS used for? 
+    To style and Picture your HTML code.
     18. How to we select an element? Example - every h2 on the page
-    
+    h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    a class is to select multiple elements inside the class, and an ID is unique to that one specific item.
     20. How do we select classes in CSS?
+    .class {}
     21. How do we select a p element with a single class of “human””?
+    .human p {}
     22. What is a parent child selector? When would this be useful? 
+    It's useful for when you're already using the parent selector, so you have to include the child to specify what you want to code.
     23. How do you select all links within a div with the class of sidebar?
+    div, .sidebar {}
     24. What is a pseudo selector?
+    :hover
     25. What do we use the change the spacing between lines?
+    line-height: 2px;
     26. What do we use to change the spacing between letters?
+    letter-spacing: 2px;
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: capitalize, lowercase, capitals;
     28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px solid black;
     29. How do I select everything on the page? 
+    * {}
     30. How do I write a comment in CSS?
+    /* Comment */
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm <file> , it won't give you a warning saying if you want to delete it.
     34. Why should I use version control? 
+    It's important for files that go through a lot of revision.
     35. How often should I commit to github?
+    Every 20 mins
     36. What is the command we would use to push our repo up to github? 
+    
     37. Walk me through Lambda's git flow. 
 
 Stretch Questions
